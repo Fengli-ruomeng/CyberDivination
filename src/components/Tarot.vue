@@ -14,7 +14,7 @@
         </div>
 
         <h3 class="tarotCard-title">感觉结果不准么?可能是心里想的东西不够准确哦。</h3>
-        <h3 class="tarotCard-title">塔罗牌需要你虔诚的想着事情,然后再去获得占卜的结果。</h3>
+        <h3 class="tarotCard-title">塔罗牌需要你虔诚的想着一件事情,然后再去获得占卜的结果。</h3>
         <h3 class="tarotCard-title">一次就好，不要太多。不如怀揣着这样的心态，再试试吧？</h3>
 
         <el-button
