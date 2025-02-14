@@ -5,9 +5,9 @@
       <h1>赛博占卜屋</h1>
       <nav class="cyber-nav">
         <div class="borderCle"><a href="https://github.com/Fengli-ruomeng/Fengli-ruomeng"><span class="nav-texts">About Me</span></a></div>
-        <div class="borderCle"><a href="http://101.43.219.171/"><span class="nav-texts">My Other Web</span></a></div>
+        <div class="borderCle"><a href="h#"><span class="nav-texts">My Other Web</span></a></div>
         <div class="borderCle"><a href="https://github.com/Fengli-ruomeng"><span class="nav-texts">Github pages</span></a></div>
-        <div class="borderCle"><a href="http://101.43.219.171/"><span class="nav-texts">Testbutton</span></a></div>
+        <div class="borderCle"><a href="h#/"><span class="nav-texts">Testbutton</span></a></div>
       </nav>
     </el-header>
     
