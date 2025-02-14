@@ -55,7 +55,7 @@ const fetchAnalysis = async () => {
 // 在组件初始化时创建OpenAI实例
 const openai = new OpenAI({
   baseURL: 'https://api.deepseek.com',
-  apiKey: 'sk-9d45be2d8fda4a449623ae30cfc22e88',
+  apiKey: 'ERROR',
   dangerouslyAllowBrowser: true // 允许浏览器环境使用
 })
 
