@@ -3,12 +3,16 @@
     <!-- 头部 -->
     <el-header class="title-text">
       <h1>赛博占卜屋</h1>
-      <h3>正在开发中...</h3>
-      <p>你的数字命运在此显现...</p>
+      <nav class="cyber-nav">
+        <div class="borderCle"><a href="https://github.com/Fengli-ruomeng/Fengli-ruomeng"><span class="nav-texts">About Me</span></a></div>
+        <div class="borderCle"><a href="http://101.43.219.171/"><span class="nav-texts">My Other Web</span></a></div>
+        <div class="borderCle"><a href="https://github.com/Fengli-ruomeng"><span class="nav-texts">Github pages</span></a></div>
+        <div class="borderCle"><a href="http://101.43.219.171/"><span class="nav-texts">Testbutton</span></a></div>
+      </nav>
     </el-header>
-
-    <!-- 主要内容 -->
+    
     <el-main>
+
       <div class="control-panel">
         <!-- 占卜按钮 -->
         <el-button 
@@ -117,11 +121,24 @@ const startDivination = () => {  // [!code focus] 关键修复点
 }
 </script>
 
+<style>
+
+html,body {
+  background: #000000;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+</style>
+
 <style scoped>
+
 /* 容器样式 */
 .cyber-container {
+  background: transparent !important;
   min-height: 100vh;
-  background: #1a1a1a;
   position: relative;
   overflow: hidden;
 }
@@ -210,5 +227,37 @@ const startDivination = () => {  // [!code focus] 关键修复点
   80% { transform: translate(-1px, -1px); }
   90% { transform: translate(1px, 2px); }
   100% { transform: translate(1px, -2px); }
+}
+
+/* 新增导航样式 */
+.cyber-nav {
+  transform: translateX(-20px);
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: -3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-button {
+  background: transparent !important;
+  border: 2px solid #00ff9d !important;
+}
+
+.active-nav {
+  background: rgba(0, 255, 157, 0.1) !important;
+  box-shadow: 0 0 15px #00ff9d !important;
+}
+
+.borderCle {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  padding: 8px;
+  display: inline-block;
+}
+
+.nav-texts {
+  color: white;
+  text-shadow: 0px 0px 30px pink;
 }
 </style>
